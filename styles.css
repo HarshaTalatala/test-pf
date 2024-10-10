@@ -48,12 +48,11 @@
     padding: 30px 5%;
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
 }
 .details{
     font-family: "Montserrat", sans-serif;
     width: 80%;
-    height: auto;
+    height: 400px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -61,16 +60,16 @@
     row-gap: 20px;
 }
 .intro{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 200;
 }
 .name{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     color: #75ac8f;
 }
 .desc{ 
-    font-size: 18px;
+    font-size: 20px;
 }
 .ctm{
     padding: 10px 15px;
@@ -87,7 +86,7 @@
 }
 .profile{
     padding: 0 30px;
-    width: 40%;
+
 }
 #pic{
     width: 400px;
@@ -121,17 +120,8 @@
     font-size: 20px;
     padding: 8px;
 }
-
-.section-3{
-    height: auto;
-    background-color: #dfebf6;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 50px 30px;
-    flex-wrap: wrap;
-}
-.education, .skills {
+.education,
+.skills {
     width: 100%; /* Full width for mobile */
     max-width: 400px;
     font-size: 18px;
@@ -140,23 +130,35 @@
     border-radius: 20px;
     box-shadow: 2px 2px 5px #779384;
 }
-.edu-title, .skills-title {
+
+.edu-title,
+.skills-title {
     font-size: 30px;
     font-weight: 500;
     color: #131417;
     margin-bottom: 15px;
+}
+
+.section-3{
+    height: 500px;
+    background-color: #dfebf6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 30px;
+}
+
+li{
+    margin: 5px 20px;
 }
 .edu{
     font-size: 22px;
     font-weight: 450;
     color: #2a2a2c;
 }
-li{
-    margin: 5px 20px;
-}
-/* p{
+p{
     padding: 5px;
-} */
+}
 
 /* ContactMe-Section */
 
