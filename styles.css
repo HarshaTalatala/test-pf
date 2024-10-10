@@ -124,6 +124,7 @@
 .skills {
     width: 100%; /* Full width for mobile */
     max-width: 400px;
+    height: 300px;
     font-size: 18px;
     padding: 50px;
     margin-bottom: 20px; /* Added margin for spacing on smaller screens */
