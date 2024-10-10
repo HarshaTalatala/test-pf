@@ -48,8 +48,7 @@
     padding: 30px 5%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
 }
 .details{
     font-family: "Montserrat", sans-serif;
@@ -92,7 +91,6 @@
 }
 #pic{
     width: 400px;
-    /* max-width: 300px; */
     border-radius: 20%;
 }
 
